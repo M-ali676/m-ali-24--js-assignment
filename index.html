@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Post Box</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="post-box-container">
+        <div class="post-box-header">
+            <h3>Create Post</h3>
+        </div>
+        <div class="post-box-content">
+            <div class="user-info">
+                <img src="user-avatar.png" alt="User Avatar" class="avatar">
+                <span class="username">John Doe</span>
+            </div>
+            <textarea id="postContent" placeholder="What's on your mind, John?" rows="4"></textarea>
+            <div class="post-options">
+                <button class="option-btn" id="addPhotoBtn">
+                    <i class="fas fa-image"></i> Add Photo/Video
+                </button>
+                <button class="option-btn" id="addTagBtn">
+                    <i class="fas fa-user-tag"></i> Tag Friends
+                </button>
+                <button class="option-btn" id="addLocationBtn">
+                    <i class="fas fa-map-marker-alt"></i> Add Location
+                </button>
+            </div>
+            <button class="post-button" id="publishPostBtn" disabled>Post</button>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+    <script src="https://kit.fontawesome.com/your-font-awesome-kit-id.js" crossorigin="anonymous"></script>
+</body>
+</html>
